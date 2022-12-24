@@ -1,0 +1,8 @@
+cubic:
+  icon: cubic:coin
+  name: "menu.cubic.items.category.Cubic"
+  priority: 0
+  items:
+    - cubic:coin
+    - cubic:bank
+    - cubic:flint_pickaxe

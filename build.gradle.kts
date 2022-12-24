@@ -1,8 +1,8 @@
 import org.gradle.configurationcache.extensions.capitalized
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-group = "com.example" // TODO: Change this to your group
-version = "1.0-SNAPSHOT" // TODO: Change this to your addon version
+group = "dev.oliveman"
+version = "0.0.1"
 
 val mojangMapped = System.getProperty("mojang-mapped") != null
 
@@ -30,10 +30,10 @@ addon {
     name.set(project.name.capitalized())
     version.set(project.version.toString())
     novaVersion.set(libs.versions.nova)
-    main.set("com.example.ExampleAddon") // TODO: Change this to your main class
+    main.set("dev.oliveman.Cubic")
     
-    // authors.add("ExampleAuthor") TODO: Set your list of authors
-    // spigotResourceId.set(12345) TODO: Set your spigot resource id
+    authors.add("Oliveman")
+    spigotResourceId.set(0)
 }
 
 spigotRemap {

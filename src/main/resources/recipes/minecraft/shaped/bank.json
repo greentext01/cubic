@@ -1,0 +1,12 @@
+{
+  "result": "cubic:bank",
+  "shape": [
+    "ccc",
+    "cdc",
+    "ccc"
+  ],
+  "ingredients": {
+    "c": "cubic:coin",
+    "d": "minecraft:diamond"
+  }
+}

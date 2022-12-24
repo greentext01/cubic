@@ -1,0 +1,12 @@
+{
+  "result": "cubic:coin",
+  "shape": [
+    "ggg",
+    "gdg",
+    "ggg"
+  ],
+  "ingredients": {
+    "g": "minecraft:gold_ingot",
+    "d": "minecraft:diamond"
+  }
+}

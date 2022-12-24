@@ -1,0 +1,12 @@
+{
+  "result": "cubic:flint_pickaxe",
+  "shape": [
+    "fff",
+    " s ",
+    " s "
+  ],
+  "ingredients": {
+    "s": "minecraft:stick",
+    "f": "minecraft:flint"
+  }
+}

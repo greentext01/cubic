@@ -1,0 +1,5 @@
+{
+  "coin": "item/coin",
+  "bank": "block/bank",
+  "flint_pickaxe": "item/flint_pickaxe"
+}
