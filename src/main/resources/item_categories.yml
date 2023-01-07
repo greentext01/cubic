@@ -4,5 +4,8 @@ cubic:
   priority: 0
   items:
     - cubic:coin
+    - cubic:tin_ingot
+    - cubic:bronze_ingot
     - cubic:bank
     - cubic:flint_pickaxe
+    - cubic:crucible

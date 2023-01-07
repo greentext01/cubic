@@ -1,3 +1,4 @@
 {
-  "bank": "gui/bank"
+  "bank": "gui/bank",
+  "recipe_crucible": "gui/recipe/crucible"
 }

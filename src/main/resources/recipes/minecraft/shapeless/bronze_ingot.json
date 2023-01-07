@@ -1,0 +1,8 @@
+{
+  "result": "cubic:bronze_ingot",
+  "amount": 3,
+  "ingredients": {
+    "cubic:tin_ingot": 1,
+    "minecraft:copper_ingot": 2
+  }
+}

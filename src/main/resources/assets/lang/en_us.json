@@ -1,5 +1,10 @@
 {
   "item.cubic.coin": "Coin",
+  "item.cubic.tin_ingot": "Tin Ingot",
+  "item.cubic.bronze_ingot": "Bronze Ingot",
   "item.cubic.flint_pickaxe": "Flint Pickaxe",
-  "block.cubic.bank": "Bank"
+  "block.cubic.bank": "Bank",
+  "block.cubic.crucible": "Crucible",
+  "inventory.cubic.fuel": "Fuel Inventory",
+  "menu.cubic.items.category.Cubic": "Cubic"
 }

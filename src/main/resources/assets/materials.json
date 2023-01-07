@@ -1,5 +1,34 @@
 {
   "coin": "item/coin",
+  "bronze_ingot": "item/bronze_ingot",
+  "tin_ingot": "item/tin_ingot",
   "bank": "block/bank",
-  "flint_pickaxe": "item/flint_pickaxe"
+  "flint_pickaxe": "item/flint_pickaxe",
+  "crucible": {
+    "item": "block/crucible",
+    "block": {
+      "type": "solid",
+      "directions": "nesw"
+    }
+  },
+  "gui_arrow_progress": {
+    "item": {
+      "models": {
+        "item/gui/progress/arrow/%s": [
+          0,
+          16
+        ]
+      }
+    }
+  },
+  "gui_flame_progress": {
+    "item": {
+      "models": {
+        "item/gui/progress/flame/%s": [
+          0,
+          13
+        ]
+      }
+    }
+  }
 }

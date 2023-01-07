@@ -1,0 +1,11 @@
+{
+  "result": "cubic:crucible",
+  "shape": [
+    "s s",
+    "s s",
+    "sss"
+  ],
+  "ingredients": {
+    "s": "minecraft:stone"
+  }
+}

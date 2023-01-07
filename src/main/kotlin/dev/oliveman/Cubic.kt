@@ -1,6 +1,8 @@
 package dev.oliveman
 
-import xyz.xenondevs.nova.Nova
+import dev.oliveman.registry.Blocks
+import dev.oliveman.registry.Items
+import dev.oliveman.registry.RecipeTypes
 import xyz.xenondevs.nova.addon.Addon
 
 object Cubic : Addon() {
@@ -10,6 +12,7 @@ object Cubic : Addon() {
         // Register NovaMaterials, RecipeTypes, etc. here
         Items.init()
         Blocks.init()
+        RecipeTypes.init()
     }
     
     override fun onEnable() {

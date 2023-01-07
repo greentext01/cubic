@@ -4,9 +4,9 @@ import de.studiocode.invui.gui.builder.GUIBuilder
 import de.studiocode.invui.gui.builder.guitype.GUIType
 import de.studiocode.invui.gui.impl.SimpleScrollVIGUI
 import de.studiocode.invui.virtualinventory.event.ItemUpdateEvent
-import dev.oliveman.Blocks
-import dev.oliveman.GUITextures
-import dev.oliveman.Items
+import dev.oliveman.registry.Blocks
+import dev.oliveman.registry.GUITextures
+import dev.oliveman.registry.Items
 import org.bukkit.inventory.ItemStack
 import xyz.xenondevs.nova.data.config.NovaConfig
 import xyz.xenondevs.nova.data.config.configReloadable
@@ -15,7 +15,7 @@ import xyz.xenondevs.nova.tileentity.NetworkedTileEntity
 import xyz.xenondevs.nova.util.item.novaMaterial
 import java.util.Date
 
-val INTEREST_RATE = configReloadable { NovaConfig[Blocks.BANK].getDouble("interest_rate") }
+private val INTEREST_RATE = configReloadable { NovaConfig[Blocks.BANK].getDouble("interest_rate") }
 
 class Bank(blockState: NovaTileEntityState) : NetworkedTileEntity(blockState) {
     override val gui = lazy { BankGUI() }
